@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*Important for all css*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+ {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+body {
+        line-height: 1;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+  img {
+    width: 100%;
+}
+
+/* Box Model */
+
+    *, *:before, *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+/*  --- CONTENT STYLES --- */
+strong {font-weight: normal;}
+h1, h2, h3, h4, h5, h6, p {font-weight: normal;}
+
+/*  --- LINK STYLES --- */
+a {
+    color: #009;
+}
+
+a img { border: 0; }
+
+form {
+    margin:0px;
+}
+
+
+
+ul {
+    overflow:hidden;
+/****fixes the issue that appears when bullets are inside a table or next to a floated object - do not delete****/
+}
+/*Custom css*/
+/*hover color change horizontal nav*/
+.navbar-default{background:transparent; border-color:transparent;}
+.navbar-default .navbar-nav > li > a{ font-size:20px;}
+.navbar-default .navbar-nav > li > a:hover{color: blue;}
+/*End hover color change horizontal nav*/
+/*hover color & border-up horizontal nav*/
+#bod-up .navbar-default{background:transparent; border-color:transparent;}
+#bod-up .navbar-default .navbar-nav > li {padding:0px 13px;}
+#bod-up .navbar-default .navbar-nav > li.active a {color: red;border-top: 4px solid red;background:transparent;padding-top: 7px;} 
+#bod-up .navbar-default .navbar-nav > li > a{font-size: 20px;border-top: 4px solid transparent;padding: 7px 0px 0px 0px;}
+#bod-up .navbar-default .navbar-nav > li > a:hover{color: red;border-top: 4px solid red;}
+/*End hover color & border-up horizontal nav*/
+
+/*hover color & button hover horizontal nav*/
+#btn-nav .navbar-default{background:transparent; border-color:transparent;}
+#btn-nav .navbar-default .navbar-nav > li	{margin-left: 29px;}
+#btn-nav .navbar-default .navbar-nav > li > a{ font-size:20px;color: #9593B3;padding-top: 5px;
+padding-bottom: 4px;}
+#btn-nav .nav > li > a{padding: 2px 6px;}
+#btn-nav .navbar-default .navbar-nav > li > a:hover{color: #9593B3;background-color: #2a3cc5;border-radius: 9px;}
+#btn-nav .navbar-default .navbar-nav > .active > a{color: #9593B3;background-color: #2a3cc5;
+border-radius: 9px;}
+
+/*hover color & mid-line divider nav[margin -ve]*/
+#midline-nav .navbar-default{background:transparent; border-color:transparent;}
+#midline-nav .navbar-default .navbar-nav > li > a{ font-size:20px;}
+#midline-nav .navbar-default .navbar-nav > li > a:hover{color: blue;}
+#midline-nav .navbar-default .navbar-nav > li {border-right: 2px solid #333;margin-bottom: -15px;
+    margin-top: -17px;}
+/*hover color & mid-line divider nav*/
+#midline-nav1 .navbar-default{background:transparent; border-color:transparent;}
+#midline-nav1 .navbar-default .navbar-nav > li > a{ font-size:20px;}
+#midline-nav1 .navbar-default .navbar-nav > li > a:hover{color: blue;}
+#midline-nav1 .navbar-default .navbar-nav > li {}
